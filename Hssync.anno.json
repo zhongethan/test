@@ -1,0 +1,2734 @@
+[
+  {
+    "class":"firrtl.stage.FirrtlCircuitAnnotation",
+    "circuit":{
+      "info":{
+        
+      },
+      "modules":[
+        {
+          "info":{
+            
+          },
+          "name":"Hssync",
+          "ports":[
+            {
+              "info":{
+                
+              },
+              "name":"io_global_pclk",
+              "direction":{
+                
+              },
+              "tpe":{
+                
+              }
+            },
+            {
+              "info":{
+                
+              },
+              "name":"io_global_presetn",
+              "direction":{
+                
+              },
+              "tpe":{
+                
+              }
+            },
+            {
+              "info":{
+                
+              },
+              "name":"io_global_sclk",
+              "direction":{
+                
+              },
+              "tpe":{
+                
+              }
+            },
+            {
+              "info":{
+                
+              },
+              "name":"io_global_sresetn",
+              "direction":{
+                
+              },
+              "tpe":{
+                
+              }
+            },
+            {
+              "info":{
+                
+              },
+              "name":"io_master_key_curinfo",
+              "direction":{
+                
+              },
+              "tpe":{
+                "width":{
+                  "width":8
+                }
+              }
+            },
+            {
+              "info":{
+                
+              },
+              "name":"io_master_key_vld",
+              "direction":{
+                
+              },
+              "tpe":{
+                "width":{
+                  "width":4
+                }
+              }
+            },
+            {
+              "info":{
+                
+              },
+              "name":"io_master_key_ack",
+              "direction":{
+                
+              },
+              "tpe":{
+                "width":{
+                  "width":4
+                }
+              }
+            },
+            {
+              "info":{
+                
+              },
+              "name":"io_slave_key_curinfo",
+              "direction":{
+                
+              },
+              "tpe":{
+                "width":{
+                  "width":8
+                }
+              }
+            },
+            {
+              "info":{
+                
+              },
+              "name":"io_slave_key_vld",
+              "direction":{
+                
+              },
+              "tpe":{
+                "width":{
+                  "width":4
+                }
+              }
+            },
+            {
+              "info":{
+                
+              },
+              "name":"io_slave_key_ack",
+              "direction":{
+                
+              },
+              "tpe":{
+                "width":{
+                  "width":4
+                }
+              }
+            }
+          ],
+          "body":{
+            "stmts":[
+              {
+                "stmts":[
+                  {
+                    "info":{
+                      "info":{
+                        "string":"Hssync.scala 19:29"
+                      }
+                    },
+                    "name":"_T",
+                    "tpe":{
+                      "width":{
+                        "width":1
+                      }
+                    },
+                    "clock":{
+                      "name":"io_global_sclk",
+                      "tpe":{
+                        
+                      },
+                      "kind":{
+                        
+                      },
+                      "flow":{
+                        
+                      }
+                    },
+                    "reset":{
+                      "value":0,
+                      "width":{
+                        "width":1
+                      }
+                    },
+                    "init":{
+                      "name":"_T",
+                      "tpe":{
+                        "width":{
+                          "width":1
+                        }
+                      },
+                      "kind":{
+                        
+                      },
+                      "flow":{
+                        
+                      }
+                    }
+                  },
+                  {
+                    "info":{
+                      "info":{
+                        "string":"Hssync.scala 20:30"
+                      }
+                    },
+                    "name":"_T_1",
+                    "tpe":{
+                      "width":{
+                        "width":1
+                      }
+                    },
+                    "clock":{
+                      "name":"io_global_sclk",
+                      "tpe":{
+                        
+                      },
+                      "kind":{
+                        
+                      },
+                      "flow":{
+                        
+                      }
+                    },
+                    "reset":{
+                      "value":0,
+                      "width":{
+                        "width":1
+                      }
+                    },
+                    "init":{
+                      "name":"_T_1",
+                      "tpe":{
+                        "width":{
+                          "width":1
+                        }
+                      },
+                      "kind":{
+                        
+                      },
+                      "flow":{
+                        
+                      }
+                    }
+                  },
+                  {
+                    "info":{
+                      "info":{
+                        "string":"Hssync.scala 21:23"
+                      }
+                    },
+                    "name":"_T_2",
+                    "value":{
+                      "op":{
+                        
+                      },
+                      "args":[
+                        {
+                          "name":"_T_1",
+                          "tpe":{
+                            "width":{
+                              "width":1
+                            }
+                          },
+                          "kind":{
+                            
+                          },
+                          "flow":{
+                            
+                          }
+                        },
+                        {
+                          "value":0,
+                          "width":{
+                            "width":1
+                          }
+                        }
+                      ],
+                      "consts":[
+                        
+                      ],
+                      "tpe":{
+                        "width":{
+                          "width":1
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "info":{
+                      "info":{
+                        "string":"Hssync.scala 22:27"
+                      }
+                    },
+                    "name":"_T_3",
+                    "tpe":{
+                      "width":{
+                        "width":2
+                      }
+                    },
+                    "clock":{
+                      "name":"io_global_sclk",
+                      "tpe":{
+                        
+                      },
+                      "kind":{
+                        
+                      },
+                      "flow":{
+                        
+                      }
+                    },
+                    "reset":{
+                      "name":"io_global_sresetn",
+                      "tpe":{
+                        
+                      },
+                      "kind":{
+                        
+                      },
+                      "flow":{
+                        
+                      }
+                    },
+                    "init":{
+                      "value":0,
+                      "width":{
+                        "width":2
+                      }
+                    }
+                  },
+                  {
+                    "info":{
+                      "info":{
+                        "string":"Conditional.scala 37:30"
+                      }
+                    },
+                    "name":"_T_4",
+                    "value":{
+                      "op":{
+                        
+                      },
+                      "args":[
+                        {
+                          "value":0,
+                          "width":{
+                            "width":2
+                          }
+                        },
+                        {
+                          "name":"_T_3",
+                          "tpe":{
+                            "width":{
+                              "width":2
+                            }
+                          },
+                          "kind":{
+                            
+                          },
+                          "flow":{
+                            
+                          }
+                        }
+                      ],
+                      "consts":[
+                        
+                      ],
+                      "tpe":{
+                        "width":{
+                          "width":1
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "info":{
+                      "info":{
+                        "string":"Conditional.scala 37:30"
+                      }
+                    },
+                    "name":"_T_5",
+                    "value":{
+                      "op":{
+                        
+                      },
+                      "args":[
+                        {
+                          "value":1,
+                          "width":{
+                            "width":2
+                          }
+                        },
+                        {
+                          "name":"_T_3",
+                          "tpe":{
+                            "width":{
+                              "width":2
+                            }
+                          },
+                          "kind":{
+                            
+                          },
+                          "flow":{
+                            
+                          }
+                        }
+                      ],
+                      "consts":[
+                        
+                      ],
+                      "tpe":{
+                        "width":{
+                          "width":1
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "info":{
+                      "info":{
+                        "string":"Hssync.scala 28:32"
+                      }
+                    },
+                    "name":"_T_6",
+                    "value":{
+                      "op":{
+                        
+                      },
+                      "args":[
+                        {
+                          "name":"io_master_key_vld",
+                          "tpe":{
+                            "width":{
+                              "width":4
+                            }
+                          },
+                          "kind":{
+                            
+                          },
+                          "flow":{
+                            
+                          }
+                        },
+                        {
+                          "value":1,
+                          "width":{
+                            "width":4
+                          }
+                        }
+                      ],
+                      "consts":[
+                        
+                      ],
+                      "tpe":{
+                        "width":{
+                          "width":1
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "info":{
+                      "info":{
+                        "string":"Hssync.scala 28:40"
+                      }
+                    },
+                    "name":"_GEN_0",
+                    "value":{
+                      "cond":{
+                        "name":"_T_6",
+                        "tpe":{
+                          "width":{
+                            "width":1
+                          }
+                        },
+                        "kind":{
+                          
+                        },
+                        "flow":{
+                          
+                        }
+                      },
+                      "tval":{
+                        "value":2,
+                        "width":{
+                          "width":2
+                        }
+                      },
+                      "fval":{
+                        "name":"_T_3",
+                        "tpe":{
+                          "width":{
+                            "width":2
+                          }
+                        },
+                        "kind":{
+                          
+                        },
+                        "flow":{
+                          
+                        }
+                      },
+                      "tpe":{
+                        "width":{
+                          "width":2
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "info":{
+                      "info":{
+                        "string":"Conditional.scala 37:30"
+                      }
+                    },
+                    "name":"_T_7",
+                    "value":{
+                      "op":{
+                        
+                      },
+                      "args":[
+                        {
+                          "value":2,
+                          "width":{
+                            "width":2
+                          }
+                        },
+                        {
+                          "name":"_T_3",
+                          "tpe":{
+                            "width":{
+                              "width":2
+                            }
+                          },
+                          "kind":{
+                            
+                          },
+                          "flow":{
+                            
+                          }
+                        }
+                      ],
+                      "consts":[
+                        
+                      ],
+                      "tpe":{
+                        "width":{
+                          "width":1
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "info":{
+                      "info":{
+                        "string":"Hssync.scala 32:14"
+                      }
+                    },
+                    "name":"_T_8",
+                    "value":{
+                      "op":{
+                        
+                      },
+                      "args":[
+                        {
+                          "name":"io_master_key_vld",
+                          "tpe":{
+                            "width":{
+                              "width":4
+                            }
+                          },
+                          "kind":{
+                            
+                          },
+                          "flow":{
+                            
+                          }
+                        },
+                        {
+                          "value":0,
+                          "width":{
+                            "width":4
+                          }
+                        }
+                      ],
+                      "consts":[
+                        
+                      ],
+                      "tpe":{
+                        "width":{
+                          "width":1
+                        }
+                      }
+                    }
+                  },
+                  {
+                    
+                  },
+                  {
+                    "info":{
+                      "info":{
+                        "string":"Hssync.scala 34:37"
+                      }
+                    },
+                    "name":"_GEN_1",
+                    "value":{
+                      "cond":{
+                        "name":"_T_1",
+                        "tpe":{
+                          "width":{
+                            "width":1
+                          }
+                        },
+                        "kind":{
+                          
+                        },
+                        "flow":{
+                          
+                        }
+                      },
+                      "tval":{
+                        "value":3,
+                        "width":{
+                          "width":2
+                        }
+                      },
+                      "fval":{
+                        "name":"_T_3",
+                        "tpe":{
+                          "width":{
+                            "width":2
+                          }
+                        },
+                        "kind":{
+                          
+                        },
+                        "flow":{
+                          
+                        }
+                      },
+                      "tpe":{
+                        "width":{
+                          "width":2
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "info":{
+                      "info":{
+                        "string":"Hssync.scala 32:33"
+                      }
+                    },
+                    "name":"_GEN_2",
+                    "value":{
+                      "cond":{
+                        "name":"_T_8",
+                        "tpe":{
+                          "width":{
+                            "width":1
+                          }
+                        },
+                        "kind":{
+                          
+                        },
+                        "flow":{
+                          
+                        }
+                      },
+                      "tval":{
+                        "value":1,
+                        "width":{
+                          "width":2
+                        }
+                      },
+                      "fval":{
+                        "name":"_GEN_1",
+                        "tpe":{
+                          "width":{
+                            "width":2
+                          }
+                        },
+                        "kind":{
+                          
+                        },
+                        "flow":{
+                          
+                        }
+                      },
+                      "tpe":{
+                        "width":{
+                          "width":2
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "info":{
+                      "info":{
+                        "string":"Conditional.scala 37:30"
+                      }
+                    },
+                    "name":"_T_10",
+                    "value":{
+                      "op":{
+                        
+                      },
+                      "args":[
+                        {
+                          "value":3,
+                          "width":{
+                            "width":2
+                          }
+                        },
+                        {
+                          "name":"_T_3",
+                          "tpe":{
+                            "width":{
+                              "width":2
+                            }
+                          },
+                          "kind":{
+                            
+                          },
+                          "flow":{
+                            
+                          }
+                        }
+                      ],
+                      "consts":[
+                        
+                      ],
+                      "tpe":{
+                        "width":{
+                          "width":1
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "info":{
+                      "info":{
+                        "string":"Hssync.scala 39:26"
+                      }
+                    },
+                    "name":"_GEN_3",
+                    "value":{
+                      "cond":{
+                        "name":"_T_2",
+                        "tpe":{
+                          "width":{
+                            "width":1
+                          }
+                        },
+                        "kind":{
+                          
+                        },
+                        "flow":{
+                          
+                        }
+                      },
+                      "tval":{
+                        "value":1,
+                        "width":{
+                          "width":2
+                        }
+                      },
+                      "fval":{
+                        "name":"_T_3",
+                        "tpe":{
+                          "width":{
+                            "width":2
+                          }
+                        },
+                        "kind":{
+                          
+                        },
+                        "flow":{
+                          
+                        }
+                      },
+                      "tpe":{
+                        "width":{
+                          "width":2
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "info":{
+                      "info":{
+                        "string":"Conditional.scala 39:67"
+                      }
+                    },
+                    "name":"_GEN_4",
+                    "value":{
+                      "cond":{
+                        "name":"_T_10",
+                        "tpe":{
+                          "width":{
+                            "width":1
+                          }
+                        },
+                        "kind":{
+                          
+                        },
+                        "flow":{
+                          
+                        }
+                      },
+                      "tval":{
+                        "name":"_GEN_3",
+                        "tpe":{
+                          "width":{
+                            "width":2
+                          }
+                        },
+                        "kind":{
+                          
+                        },
+                        "flow":{
+                          
+                        }
+                      },
+                      "fval":{
+                        "name":"_T_3",
+                        "tpe":{
+                          "width":{
+                            "width":2
+                          }
+                        },
+                        "kind":{
+                          
+                        },
+                        "flow":{
+                          
+                        }
+                      },
+                      "tpe":{
+                        "width":{
+                          "width":2
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "info":{
+                      "info":{
+                        "string":"Conditional.scala 39:67"
+                      }
+                    },
+                    "name":"_GEN_5",
+                    "value":{
+                      "cond":{
+                        "name":"_T_7",
+                        "tpe":{
+                          "width":{
+                            "width":1
+                          }
+                        },
+                        "kind":{
+                          
+                        },
+                        "flow":{
+                          
+                        }
+                      },
+                      "tval":{
+                        "name":"_GEN_2",
+                        "tpe":{
+                          "width":{
+                            "width":2
+                          }
+                        },
+                        "kind":{
+                          
+                        },
+                        "flow":{
+                          
+                        }
+                      },
+                      "fval":{
+                        "name":"_GEN_4",
+                        "tpe":{
+                          "width":{
+                            "width":2
+                          }
+                        },
+                        "kind":{
+                          
+                        },
+                        "flow":{
+                          
+                        }
+                      },
+                      "tpe":{
+                        "width":{
+                          "width":2
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "info":{
+                      "info":{
+                        "string":"Conditional.scala 39:67"
+                      }
+                    },
+                    "name":"_GEN_6",
+                    "value":{
+                      "cond":{
+                        "name":"_T_5",
+                        "tpe":{
+                          "width":{
+                            "width":1
+                          }
+                        },
+                        "kind":{
+                          
+                        },
+                        "flow":{
+                          
+                        }
+                      },
+                      "tval":{
+                        "name":"_GEN_0",
+                        "tpe":{
+                          "width":{
+                            "width":2
+                          }
+                        },
+                        "kind":{
+                          
+                        },
+                        "flow":{
+                          
+                        }
+                      },
+                      "fval":{
+                        "name":"_GEN_5",
+                        "tpe":{
+                          "width":{
+                            "width":2
+                          }
+                        },
+                        "kind":{
+                          
+                        },
+                        "flow":{
+                          
+                        }
+                      },
+                      "tpe":{
+                        "width":{
+                          "width":2
+                        }
+                      }
+                    }
+                  },
+                  {
+                    
+                  },
+                  {
+                    "info":{
+                      "info":{
+                        "string":"Hssync.scala 44:26"
+                      }
+                    },
+                    "name":"_T_11",
+                    "value":{
+                      "op":{
+                        
+                      },
+                      "args":[
+                        {
+                          "name":"_T_3",
+                          "tpe":{
+                            "width":{
+                              "width":2
+                            }
+                          },
+                          "kind":{
+                            
+                          },
+                          "flow":{
+                            
+                          }
+                        },
+                        {
+                          "value":1,
+                          "width":{
+                            "width":2
+                          }
+                        }
+                      ],
+                      "consts":[
+                        
+                      ],
+                      "tpe":{
+                        "width":{
+                          "width":1
+                        }
+                      }
+                    }
+                  },
+                  {
+                    
+                  },
+                  {
+                    "info":{
+                      "info":{
+                        "string":"Hssync.scala 44:42"
+                      }
+                    },
+                    "name":"_T_13",
+                    "value":{
+                      "op":{
+                        
+                      },
+                      "args":[
+                        {
+                          "name":"_T_11",
+                          "tpe":{
+                            "width":{
+                              "width":1
+                            }
+                          },
+                          "kind":{
+                            
+                          },
+                          "flow":{
+                            
+                          }
+                        },
+                        {
+                          "name":"_T_6",
+                          "tpe":{
+                            "width":{
+                              "width":1
+                            }
+                          },
+                          "kind":{
+                            
+                          },
+                          "flow":{
+                            
+                          }
+                        }
+                      ],
+                      "consts":[
+                        
+                      ],
+                      "tpe":{
+                        "width":{
+                          "width":1
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "info":{
+                      "info":{
+                        "string":"Hssync.scala 45:30"
+                      }
+                    },
+                    "name":"_T_14",
+                    "value":{
+                      "op":{
+                        
+                      },
+                      "args":[
+                        {
+                          "name":"_T_3",
+                          "tpe":{
+                            "width":{
+                              "width":2
+                            }
+                          },
+                          "kind":{
+                            
+                          },
+                          "flow":{
+                            
+                          }
+                        },
+                        {
+                          "value":2,
+                          "width":{
+                            "width":2
+                          }
+                        }
+                      ],
+                      "consts":[
+                        
+                      ],
+                      "tpe":{
+                        "width":{
+                          "width":1
+                        }
+                      }
+                    }
+                  },
+                  {
+                    
+                  },
+                  {
+                    "info":{
+                      "info":{
+                        "string":"Hssync.scala 45:46"
+                      }
+                    },
+                    "name":"_T_16",
+                    "value":{
+                      "op":{
+                        
+                      },
+                      "args":[
+                        {
+                          "name":"_T_14",
+                          "tpe":{
+                            "width":{
+                              "width":1
+                            }
+                          },
+                          "kind":{
+                            
+                          },
+                          "flow":{
+                            
+                          }
+                        },
+                        {
+                          "name":"_T_2",
+                          "tpe":{
+                            "width":{
+                              "width":1
+                            }
+                          },
+                          "kind":{
+                            
+                          },
+                          "flow":{
+                            
+                          }
+                        }
+                      ],
+                      "consts":[
+                        
+                      ],
+                      "tpe":{
+                        "width":{
+                          "width":1
+                        }
+                      }
+                    }
+                  },
+                  {
+                    
+                  },
+                  {
+                    
+                  },
+                  {
+                    
+                  },
+                  {
+                    "info":{
+                      "info":{
+                        "string":"Hssync.scala 47:51"
+                      }
+                    },
+                    "name":"_T_20",
+                    "value":{
+                      "op":{
+                        
+                      },
+                      "args":[
+                        {
+                          "name":"_T_14",
+                          "tpe":{
+                            "width":{
+                              "width":1
+                            }
+                          },
+                          "kind":{
+                            
+                          },
+                          "flow":{
+                            
+                          }
+                        },
+                        {
+                          "name":"_T_1",
+                          "tpe":{
+                            "width":{
+                              "width":1
+                            }
+                          },
+                          "kind":{
+                            
+                          },
+                          "flow":{
+                            
+                          }
+                        }
+                      ],
+                      "consts":[
+                        
+                      ],
+                      "tpe":{
+                        "width":{
+                          "width":1
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "info":{
+                      "info":{
+                        "string":"Hssync.scala 53:27"
+                      }
+                    },
+                    "name":"_T_21",
+                    "tpe":{
+                      "width":{
+                        "width":2
+                      }
+                    },
+                    "clock":{
+                      "name":"io_global_pclk",
+                      "tpe":{
+                        
+                      },
+                      "kind":{
+                        
+                      },
+                      "flow":{
+                        
+                      }
+                    },
+                    "reset":{
+                      "name":"io_global_presetn",
+                      "tpe":{
+                        
+                      },
+                      "kind":{
+                        
+                      },
+                      "flow":{
+                        
+                      }
+                    },
+                    "init":{
+                      "value":0,
+                      "width":{
+                        "width":2
+                      }
+                    }
+                  },
+                  {
+                    "info":{
+                      "info":{
+                        "string":"Hssync.scala 54:28"
+                      }
+                    },
+                    "name":"_T_22",
+                    "tpe":{
+                      "width":{
+                        "width":1
+                      }
+                    },
+                    "clock":{
+                      "name":"io_global_pclk",
+                      "tpe":{
+                        
+                      },
+                      "kind":{
+                        
+                      },
+                      "flow":{
+                        
+                      }
+                    },
+                    "reset":{
+                      "value":0,
+                      "width":{
+                        "width":1
+                      }
+                    },
+                    "init":{
+                      "name":"_T_22",
+                      "tpe":{
+                        "width":{
+                          "width":1
+                        }
+                      },
+                      "kind":{
+                        
+                      },
+                      "flow":{
+                        
+                      }
+                    }
+                  },
+                  {
+                    "info":{
+                      "info":{
+                        "string":"Hssync.scala 55:30"
+                      }
+                    },
+                    "name":"_T_23",
+                    "tpe":{
+                      "width":{
+                        "width":1
+                      }
+                    },
+                    "clock":{
+                      "name":"io_global_pclk",
+                      "tpe":{
+                        
+                      },
+                      "kind":{
+                        
+                      },
+                      "flow":{
+                        
+                      }
+                    },
+                    "reset":{
+                      "value":0,
+                      "width":{
+                        "width":1
+                      }
+                    },
+                    "init":{
+                      "name":"_T_23",
+                      "tpe":{
+                        "width":{
+                          "width":1
+                        }
+                      },
+                      "kind":{
+                        
+                      },
+                      "flow":{
+                        
+                      }
+                    }
+                  },
+                  {
+                    "info":{
+                      "info":{
+                        "string":"Conditional.scala 37:30"
+                      }
+                    },
+                    "name":"_T_24",
+                    "value":{
+                      "op":{
+                        
+                      },
+                      "args":[
+                        {
+                          "value":0,
+                          "width":{
+                            "width":2
+                          }
+                        },
+                        {
+                          "name":"_T_21",
+                          "tpe":{
+                            "width":{
+                              "width":2
+                            }
+                          },
+                          "kind":{
+                            
+                          },
+                          "flow":{
+                            
+                          }
+                        }
+                      ],
+                      "consts":[
+                        
+                      ],
+                      "tpe":{
+                        "width":{
+                          "width":1
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "info":{
+                      "info":{
+                        "string":"Conditional.scala 37:30"
+                      }
+                    },
+                    "name":"_T_25",
+                    "value":{
+                      "op":{
+                        
+                      },
+                      "args":[
+                        {
+                          "value":1,
+                          "width":{
+                            "width":2
+                          }
+                        },
+                        {
+                          "name":"_T_21",
+                          "tpe":{
+                            "width":{
+                              "width":2
+                            }
+                          },
+                          "kind":{
+                            
+                          },
+                          "flow":{
+                            
+                          }
+                        }
+                      ],
+                      "consts":[
+                        
+                      ],
+                      "tpe":{
+                        "width":{
+                          "width":1
+                        }
+                      }
+                    }
+                  },
+                  {
+                    
+                  },
+                  {
+                    "info":{
+                      "info":{
+                        "string":"Hssync.scala 61:31"
+                      }
+                    },
+                    "name":"_GEN_8",
+                    "value":{
+                      "cond":{
+                        "name":"_T_23",
+                        "tpe":{
+                          "width":{
+                            "width":1
+                          }
+                        },
+                        "kind":{
+                          
+                        },
+                        "flow":{
+                          
+                        }
+                      },
+                      "tval":{
+                        "value":2,
+                        "width":{
+                          "width":2
+                        }
+                      },
+                      "fval":{
+                        "name":"_T_21",
+                        "tpe":{
+                          "width":{
+                            "width":2
+                          }
+                        },
+                        "kind":{
+                          
+                        },
+                        "flow":{
+                          
+                        }
+                      },
+                      "tpe":{
+                        "width":{
+                          "width":2
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "info":{
+                      "info":{
+                        "string":"Conditional.scala 37:30"
+                      }
+                    },
+                    "name":"_T_27",
+                    "value":{
+                      "op":{
+                        
+                      },
+                      "args":[
+                        {
+                          "value":2,
+                          "width":{
+                            "width":2
+                          }
+                        },
+                        {
+                          "name":"_T_21",
+                          "tpe":{
+                            "width":{
+                              "width":2
+                            }
+                          },
+                          "kind":{
+                            
+                          },
+                          "flow":{
+                            
+                          }
+                        }
+                      ],
+                      "consts":[
+                        
+                      ],
+                      "tpe":{
+                        "width":{
+                          "width":1
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "info":{
+                      "info":{
+                        "string":"Hssync.scala 64:31"
+                      }
+                    },
+                    "name":"_T_28",
+                    "value":{
+                      "op":{
+                        
+                      },
+                      "args":[
+                        {
+                          "name":"io_slave_key_ack",
+                          "tpe":{
+                            "width":{
+                              "width":4
+                            }
+                          },
+                          "kind":{
+                            
+                          },
+                          "flow":{
+                            
+                          }
+                        },
+                        {
+                          "value":1,
+                          "width":{
+                            "width":4
+                          }
+                        }
+                      ],
+                      "consts":[
+                        
+                      ],
+                      "tpe":{
+                        "width":{
+                          "width":1
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "info":{
+                      "info":{
+                        "string":"Hssync.scala 64:40"
+                      }
+                    },
+                    "name":"_GEN_9",
+                    "value":{
+                      "cond":{
+                        "name":"_T_28",
+                        "tpe":{
+                          "width":{
+                            "width":1
+                          }
+                        },
+                        "kind":{
+                          
+                        },
+                        "flow":{
+                          
+                        }
+                      },
+                      "tval":{
+                        "value":3,
+                        "width":{
+                          "width":2
+                        }
+                      },
+                      "fval":{
+                        "name":"_T_21",
+                        "tpe":{
+                          "width":{
+                            "width":2
+                          }
+                        },
+                        "kind":{
+                          
+                        },
+                        "flow":{
+                          
+                        }
+                      },
+                      "tpe":{
+                        "width":{
+                          "width":2
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "info":{
+                      "info":{
+                        "string":"Conditional.scala 37:30"
+                      }
+                    },
+                    "name":"_T_29",
+                    "value":{
+                      "op":{
+                        
+                      },
+                      "args":[
+                        {
+                          "value":3,
+                          "width":{
+                            "width":2
+                          }
+                        },
+                        {
+                          "name":"_T_21",
+                          "tpe":{
+                            "width":{
+                              "width":2
+                            }
+                          },
+                          "kind":{
+                            
+                          },
+                          "flow":{
+                            
+                          }
+                        }
+                      ],
+                      "consts":[
+                        
+                      ],
+                      "tpe":{
+                        "width":{
+                          "width":1
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "info":{
+                      "info":{
+                        "string":"Hssync.scala 67:14"
+                      }
+                    },
+                    "name":"_T_30",
+                    "value":{
+                      "op":{
+                        
+                      },
+                      "args":[
+                        {
+                          "name":"_T_23",
+                          "tpe":{
+                            "width":{
+                              "width":1
+                            }
+                          },
+                          "kind":{
+                            
+                          },
+                          "flow":{
+                            
+                          }
+                        },
+                        {
+                          "value":0,
+                          "width":{
+                            "width":1
+                          }
+                        }
+                      ],
+                      "consts":[
+                        
+                      ],
+                      "tpe":{
+                        "width":{
+                          "width":1
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "info":{
+                      "info":{
+                        "string":"Hssync.scala 67:27"
+                      }
+                    },
+                    "name":"_GEN_10",
+                    "value":{
+                      "cond":{
+                        "name":"_T_30",
+                        "tpe":{
+                          "width":{
+                            "width":1
+                          }
+                        },
+                        "kind":{
+                          
+                        },
+                        "flow":{
+                          
+                        }
+                      },
+                      "tval":{
+                        "value":1,
+                        "width":{
+                          "width":2
+                        }
+                      },
+                      "fval":{
+                        "name":"_T_21",
+                        "tpe":{
+                          "width":{
+                            "width":2
+                          }
+                        },
+                        "kind":{
+                          
+                        },
+                        "flow":{
+                          
+                        }
+                      },
+                      "tpe":{
+                        "width":{
+                          "width":2
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "info":{
+                      "info":{
+                        "string":"Conditional.scala 39:67"
+                      }
+                    },
+                    "name":"_GEN_11",
+                    "value":{
+                      "cond":{
+                        "name":"_T_29",
+                        "tpe":{
+                          "width":{
+                            "width":1
+                          }
+                        },
+                        "kind":{
+                          
+                        },
+                        "flow":{
+                          
+                        }
+                      },
+                      "tval":{
+                        "name":"_GEN_10",
+                        "tpe":{
+                          "width":{
+                            "width":2
+                          }
+                        },
+                        "kind":{
+                          
+                        },
+                        "flow":{
+                          
+                        }
+                      },
+                      "fval":{
+                        "name":"_T_21",
+                        "tpe":{
+                          "width":{
+                            "width":2
+                          }
+                        },
+                        "kind":{
+                          
+                        },
+                        "flow":{
+                          
+                        }
+                      },
+                      "tpe":{
+                        "width":{
+                          "width":2
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "info":{
+                      "info":{
+                        "string":"Conditional.scala 39:67"
+                      }
+                    },
+                    "name":"_GEN_12",
+                    "value":{
+                      "cond":{
+                        "name":"_T_27",
+                        "tpe":{
+                          "width":{
+                            "width":1
+                          }
+                        },
+                        "kind":{
+                          
+                        },
+                        "flow":{
+                          
+                        }
+                      },
+                      "tval":{
+                        "name":"_GEN_9",
+                        "tpe":{
+                          "width":{
+                            "width":2
+                          }
+                        },
+                        "kind":{
+                          
+                        },
+                        "flow":{
+                          
+                        }
+                      },
+                      "fval":{
+                        "name":"_GEN_11",
+                        "tpe":{
+                          "width":{
+                            "width":2
+                          }
+                        },
+                        "kind":{
+                          
+                        },
+                        "flow":{
+                          
+                        }
+                      },
+                      "tpe":{
+                        "width":{
+                          "width":2
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "info":{
+                      "info":{
+                        "string":"Conditional.scala 39:67"
+                      }
+                    },
+                    "name":"_GEN_13",
+                    "value":{
+                      "cond":{
+                        "name":"_T_25",
+                        "tpe":{
+                          "width":{
+                            "width":1
+                          }
+                        },
+                        "kind":{
+                          
+                        },
+                        "flow":{
+                          
+                        }
+                      },
+                      "tval":{
+                        "name":"_GEN_8",
+                        "tpe":{
+                          "width":{
+                            "width":2
+                          }
+                        },
+                        "kind":{
+                          
+                        },
+                        "flow":{
+                          
+                        }
+                      },
+                      "fval":{
+                        "name":"_GEN_12",
+                        "tpe":{
+                          "width":{
+                            "width":2
+                          }
+                        },
+                        "kind":{
+                          
+                        },
+                        "flow":{
+                          
+                        }
+                      },
+                      "tpe":{
+                        "width":{
+                          "width":2
+                        }
+                      }
+                    }
+                  },
+                  {
+                    
+                  },
+                  {
+                    "info":{
+                      "info":{
+                        "string":"Hssync.scala 70:34"
+                      }
+                    },
+                    "name":"_T_31",
+                    "value":{
+                      "op":{
+                        
+                      },
+                      "args":[
+                        {
+                          "name":"_T_21",
+                          "tpe":{
+                            "width":{
+                              "width":2
+                            }
+                          },
+                          "kind":{
+                            
+                          },
+                          "flow":{
+                            
+                          }
+                        },
+                        {
+                          "value":2,
+                          "width":{
+                            "width":2
+                          }
+                        }
+                      ],
+                      "consts":[
+                        
+                      ],
+                      "tpe":{
+                        "width":{
+                          "width":1
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "info":{
+                      "info":{
+                        "string":"Hssync.scala 70:63"
+                      }
+                    },
+                    "name":"_T_32",
+                    "value":{
+                      "op":{
+                        
+                      },
+                      "args":[
+                        {
+                          "name":"_T_21",
+                          "tpe":{
+                            "width":{
+                              "width":2
+                            }
+                          },
+                          "kind":{
+                            
+                          },
+                          "flow":{
+                            
+                          }
+                        },
+                        {
+                          "value":1,
+                          "width":{
+                            "width":2
+                          }
+                        }
+                      ],
+                      "consts":[
+                        
+                      ],
+                      "tpe":{
+                        "width":{
+                          "width":1
+                        }
+                      }
+                    }
+                  },
+                  {
+                    
+                  },
+                  {
+                    "info":{
+                      "info":{
+                        "string":"Hssync.scala 70:79"
+                      }
+                    },
+                    "name":"_T_34",
+                    "value":{
+                      "op":{
+                        
+                      },
+                      "args":[
+                        {
+                          "name":"_T_32",
+                          "tpe":{
+                            "width":{
+                              "width":1
+                            }
+                          },
+                          "kind":{
+                            
+                          },
+                          "flow":{
+                            
+                          }
+                        },
+                        {
+                          "name":"_T_23",
+                          "tpe":{
+                            "width":{
+                              "width":1
+                            }
+                          },
+                          "kind":{
+                            
+                          },
+                          "flow":{
+                            
+                          }
+                        }
+                      ],
+                      "consts":[
+                        
+                      ],
+                      "tpe":{
+                        "width":{
+                          "width":1
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "info":{
+                      "info":{
+                        "string":"Hssync.scala 70:50"
+                      }
+                    },
+                    "name":"_T_35",
+                    "value":{
+                      "op":{
+                        
+                      },
+                      "args":[
+                        {
+                          "name":"_T_31",
+                          "tpe":{
+                            "width":{
+                              "width":1
+                            }
+                          },
+                          "kind":{
+                            
+                          },
+                          "flow":{
+                            
+                          }
+                        },
+                        {
+                          "name":"_T_34",
+                          "tpe":{
+                            "width":{
+                              "width":1
+                            }
+                          },
+                          "kind":{
+                            
+                          },
+                          "flow":{
+                            
+                          }
+                        }
+                      ],
+                      "consts":[
+                        
+                      ],
+                      "tpe":{
+                        "width":{
+                          "width":1
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "info":{
+                      "info":{
+                        "string":"Hssync.scala 71:26"
+                      }
+                    },
+                    "name":"_T_36",
+                    "value":{
+                      "op":{
+                        
+                      },
+                      "args":[
+                        {
+                          "name":"_T_21",
+                          "tpe":{
+                            "width":{
+                              "width":2
+                            }
+                          },
+                          "kind":{
+                            
+                          },
+                          "flow":{
+                            
+                          }
+                        },
+                        {
+                          "value":3,
+                          "width":{
+                            "width":2
+                          }
+                        }
+                      ],
+                      "consts":[
+                        
+                      ],
+                      "tpe":{
+                        "width":{
+                          "width":1
+                        }
+                      }
+                    }
+                  },
+                  {
+                    
+                  },
+                  {
+                    
+                  },
+                  {
+                    
+                  },
+                  {
+                    
+                  },
+                  {
+                    "stmts":[
+                      {
+                        
+                      },
+                      {
+                        "info":{
+                          "info":{
+                            "string":"Hssync.scala 47:23"
+                          }
+                        },
+                        "loc":{
+                          "name":"io_master_key_ack",
+                          "tpe":{
+                            "width":{
+                              "width":4
+                            }
+                          },
+                          "kind":{
+                            
+                          },
+                          "flow":{
+                            
+                          }
+                        },
+                        "expr":{
+                          "op":{
+                            
+                          },
+                          "args":[
+                            {
+                              "name":"_T_20",
+                              "tpe":{
+                                "width":{
+                                  "width":1
+                                }
+                              },
+                              "kind":{
+                                
+                              },
+                              "flow":{
+                                
+                              }
+                            }
+                          ],
+                          "consts":[
+                            4
+                          ],
+                          "tpe":{
+                            "width":{
+                              "width":4
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "info":{
+                      "info":{
+                        "string":"Hssync.scala 74:24"
+                      }
+                    },
+                    "loc":{
+                      "name":"io_slave_key_curinfo",
+                      "tpe":{
+                        "width":{
+                          "width":8
+                        }
+                      },
+                      "kind":{
+                        
+                      },
+                      "flow":{
+                        
+                      }
+                    },
+                    "expr":{
+                      "name":"io_master_key_curinfo",
+                      "tpe":{
+                        "width":{
+                          "width":8
+                        }
+                      },
+                      "kind":{
+                        
+                      },
+                      "flow":{
+                        
+                      }
+                    }
+                  },
+                  {
+                    "stmts":[
+                      {
+                        
+                      },
+                      {
+                        "info":{
+                          "info":{
+                            "string":"Hssync.scala 70:22"
+                          }
+                        },
+                        "loc":{
+                          "name":"io_slave_key_vld",
+                          "tpe":{
+                            "width":{
+                              "width":4
+                            }
+                          },
+                          "kind":{
+                            
+                          },
+                          "flow":{
+                            
+                          }
+                        },
+                        "expr":{
+                          "op":{
+                            
+                          },
+                          "args":[
+                            {
+                              "name":"_T_35",
+                              "tpe":{
+                                "width":{
+                                  "width":1
+                                }
+                              },
+                              "kind":{
+                                
+                              },
+                              "flow":{
+                                
+                              }
+                            }
+                          ],
+                          "consts":[
+                            4
+                          ],
+                          "tpe":{
+                            "width":{
+                              "width":4
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "info":{
+                      "info":{
+                        "string":"Hssync.scala 19:29"
+                      }
+                    },
+                    "loc":{
+                      "name":"_T",
+                      "tpe":{
+                        "width":{
+                          "width":1
+                        }
+                      },
+                      "kind":{
+                        
+                      },
+                      "flow":{
+                        
+                      }
+                    },
+                    "expr":{
+                      "op":{
+                        
+                      },
+                      "args":[
+                        {
+                          "name":"_T_36",
+                          "tpe":{
+                            "width":{
+                              "width":1
+                            }
+                          },
+                          "kind":{
+                            
+                          },
+                          "flow":{
+                            
+                          }
+                        },
+                        {
+                          "name":"_T_23",
+                          "tpe":{
+                            "width":{
+                              "width":1
+                            }
+                          },
+                          "kind":{
+                            
+                          },
+                          "flow":{
+                            
+                          }
+                        }
+                      ],
+                      "consts":[
+                        
+                      ],
+                      "tpe":{
+                        "width":{
+                          "width":1
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "info":{
+                      "info":{
+                        "string":"Hssync.scala 20:30"
+                      }
+                    },
+                    "loc":{
+                      "name":"_T_1",
+                      "tpe":{
+                        "width":{
+                          "width":1
+                        }
+                      },
+                      "kind":{
+                        
+                      },
+                      "flow":{
+                        
+                      }
+                    },
+                    "expr":{
+                      "name":"_T",
+                      "tpe":{
+                        "width":{
+                          "width":1
+                        }
+                      },
+                      "kind":{
+                        
+                      },
+                      "flow":{
+                        
+                      }
+                    }
+                  },
+                  {
+                    "info":{
+                      "infos":[
+                        {
+                          "info":{
+                            "string":"Hssync.scala 25:17"
+                          }
+                        },
+                        {
+                          "info":{
+                            "string":"Hssync.scala 29:19"
+                          }
+                        },
+                        {
+                          "info":{
+                            "string":"Hssync.scala 33:19"
+                          }
+                        },
+                        {
+                          "info":{
+                            "string":"Hssync.scala 35:19"
+                          }
+                        },
+                        {
+                          "info":{
+                            "string":"Hssync.scala 40:19"
+                          }
+                        }
+                      ]
+                    },
+                    "loc":{
+                      "name":"_T_3",
+                      "tpe":{
+                        "width":{
+                          "width":2
+                        }
+                      },
+                      "kind":{
+                        
+                      },
+                      "flow":{
+                        
+                      }
+                    },
+                    "expr":{
+                      "cond":{
+                        "name":"_T_4",
+                        "tpe":{
+                          "width":{
+                            "width":1
+                          }
+                        },
+                        "kind":{
+                          
+                        },
+                        "flow":{
+                          
+                        }
+                      },
+                      "tval":{
+                        "value":1,
+                        "width":{
+                          "width":2
+                        }
+                      },
+                      "fval":{
+                        "name":"_GEN_6",
+                        "tpe":{
+                          "width":{
+                            "width":2
+                          }
+                        },
+                        "kind":{
+                          
+                        },
+                        "flow":{
+                          
+                        }
+                      },
+                      "tpe":{
+                        "width":{
+                          "width":2
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "info":{
+                      "infos":[
+                        {
+                          "info":{
+                            "string":"Hssync.scala 58:17"
+                          }
+                        },
+                        {
+                          "info":{
+                            "string":"Hssync.scala 61:40"
+                          }
+                        },
+                        {
+                          "info":{
+                            "string":"Hssync.scala 64:49"
+                          }
+                        },
+                        {
+                          "info":{
+                            "string":"Hssync.scala 67:36"
+                          }
+                        }
+                      ]
+                    },
+                    "loc":{
+                      "name":"_T_21",
+                      "tpe":{
+                        "width":{
+                          "width":2
+                        }
+                      },
+                      "kind":{
+                        
+                      },
+                      "flow":{
+                        
+                      }
+                    },
+                    "expr":{
+                      "cond":{
+                        "name":"_T_24",
+                        "tpe":{
+                          "width":{
+                            "width":1
+                          }
+                        },
+                        "kind":{
+                          
+                        },
+                        "flow":{
+                          
+                        }
+                      },
+                      "tval":{
+                        "value":1,
+                        "width":{
+                          "width":2
+                        }
+                      },
+                      "fval":{
+                        "name":"_GEN_13",
+                        "tpe":{
+                          "width":{
+                            "width":2
+                          }
+                        },
+                        "kind":{
+                          
+                        },
+                        "flow":{
+                          
+                        }
+                      },
+                      "tpe":{
+                        "width":{
+                          "width":2
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "info":{
+                      "info":{
+                        "string":"Hssync.scala 54:28"
+                      }
+                    },
+                    "loc":{
+                      "name":"_T_22",
+                      "tpe":{
+                        "width":{
+                          "width":1
+                        }
+                      },
+                      "kind":{
+                        
+                      },
+                      "flow":{
+                        
+                      }
+                    },
+                    "expr":{
+                      "op":{
+                        
+                      },
+                      "args":[
+                        {
+                          "name":"_T_13",
+                          "tpe":{
+                            "width":{
+                              "width":1
+                            }
+                          },
+                          "kind":{
+                            
+                          },
+                          "flow":{
+                            
+                          }
+                        },
+                        {
+                          "name":"_T_16",
+                          "tpe":{
+                            "width":{
+                              "width":1
+                            }
+                          },
+                          "kind":{
+                            
+                          },
+                          "flow":{
+                            
+                          }
+                        }
+                      ],
+                      "consts":[
+                        
+                      ],
+                      "tpe":{
+                        "width":{
+                          "width":1
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "info":{
+                      "info":{
+                        "string":"Hssync.scala 55:30"
+                      }
+                    },
+                    "loc":{
+                      "name":"_T_23",
+                      "tpe":{
+                        "width":{
+                          "width":1
+                        }
+                      },
+                      "kind":{
+                        
+                      },
+                      "flow":{
+                        
+                      }
+                    },
+                    "expr":{
+                      "name":"_T_22",
+                      "tpe":{
+                        "width":{
+                          "width":1
+                        }
+                      },
+                      "kind":{
+                        
+                      },
+                      "flow":{
+                        
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "main":"Hssync"
+    }
+  },
+  {
+    "class":"firrtl.transforms.CombinationalPath",
+    "sink":"~Hssync|Hssync>io_slave_key_curinfo",
+    "sources":[
+      "~Hssync|Hssync>io_master_key_curinfo"
+    ]
+  },
+  {
+    "class":"logger.LogLevelAnnotation",
+    "globalLogLevel":{
+      
+    }
+  },
+  {
+    "class":"firrtl.stage.InfoModeAnnotation",
+    "modeName":"append"
+  },
+  {
+    "class":"firrtl.EmitCircuitAnnotation",
+    "emitter":"firrtl.VerilogEmitter"
+  },
+  {
+    "class":"firrtl.options.TargetDirAnnotation",
+    "directory":"."
+  },
+  {
+    "class":"firrtl.options.OutputAnnotationFileAnnotation",
+    "file":"Hssync"
+  },
+  {
+    "class":"firrtl.stage.OutputFileAnnotation",
+    "file":"Hssync"
+  },
+  {
+    "class":"firrtl.transforms.BlackBoxTargetDirAnno",
+    "targetDir":"."
+  }
+]
